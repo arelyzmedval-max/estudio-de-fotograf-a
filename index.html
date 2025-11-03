@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estudio de Fotografía</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Tipografías -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Playfair+Display:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="logo-contenedor">
+      <img src="img/logo.png" alt="Logo del estudio" class="logo">
+      <h1>Estudio de Fotografía</h1>
+    </div>
+
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#portafolio">Portafolio</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <section id="inicio" class="hero">
+    <div class="hero-texto">
+      <h2>Capturamos tus momentos más importantes</h2>
+      <button id="btn-reserva">Reserva tu sesión</button>
+    </div>
+  </section>
+
+  <section id="portafolio" class="seccion">
+    <h2>Portafolio</h2>
+    <div class="galeria">
+      <img src="img/Bernardo Yahir-7.webp" alt="Foto 1">
+      <img src="img/Bernardo Yahir-8.jpg" alt="Foto 2">
+      <img src="img/Daniela Larreta-1.jpg" alt="Foto 3">
+      <img src="img/Daniela Larreta-9.jpg" alt="Foto 4">
+      <img src="img/foto2.jpg" alt="Foto 5">
+      <img src="img/foto2.jpg" alt="Foto 6">
+      <img src="img/foto2.jpg" alt="Foto 7">
+      <img src="img/foto2.jpg" alt="Foto 8">
+    </div>
+  </section>
+
+  <section id="servicios" class="seccion">
+    <h2>Servicios</h2>
+    <ul class="lista-servicios">
+      <li>📸 Sesiones individuales</li>
+      <li>🎉 Fotografía de eventos</li>
+      <li>🛍️ Fotografía de producto</li>
+    </ul>
+  </section>
+
+  <section id="contacto" class="seccion contacto">
+    <h2>Contacto</h2>
+    <form>
+      <input type="text" placeholder="Tu nombre" required>
+      <input type="email" placeholder="Tu correo" required>
+      <textarea placeholder="Tu mensaje" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Estudio de Fotografía. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
